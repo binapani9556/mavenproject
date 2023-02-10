@@ -53,7 +53,7 @@ public class BaseClass {
 	
 	@AfterSuite
 	public void afterSuitMethod() {
-		System.out.println("================@AfterSuite executed========================");
+		System.out.println("================@AfterSuite executed=========");
 	}
 
 }
