@@ -24,7 +24,7 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		
 	}
 	
@@ -35,7 +35,7 @@ public class BaseClass {
 		driver.findElement(By.name("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.xpath("//div[text()='Login ']")).click();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		
 	}
 	
