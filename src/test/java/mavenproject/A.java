@@ -34,6 +34,8 @@ public static void main(String[] args) {
 	A objA = new A(10);
 	//objA.method1();
 	System.out.println("baba+gudi");
+	System.out.println("fula+gudi");
+	System.out.println("modify ");
 }
 
 }
