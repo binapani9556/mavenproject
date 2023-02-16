@@ -33,6 +33,7 @@ public class A {
 public static void main(String[] args) {
 	A objA = new A(10);
 	//objA.method1();
+	System.out.println("baba+gudi");
 }
 
 }

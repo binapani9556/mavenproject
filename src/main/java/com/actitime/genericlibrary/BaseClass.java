@@ -51,10 +51,7 @@ public class BaseClass {
 		//driver.close();
 	}
 	
-	@AfterSuite
-	public void afterSuitMethod() {
-		System.out.println("================@AfterSuite executed=========");
-		
+	
 	}
 
 }
