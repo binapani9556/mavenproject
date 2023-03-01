@@ -51,7 +51,11 @@ public class BaseClass {
 		//driver.close();
 	}
 	
-	
+	@AfterClass
+	public void CloseBrowser() {
+		System.out.println("============CloseBrowser========@AfterClass Executed=============");
+		//driver.close();
+	}
 	}
 
-}
+
