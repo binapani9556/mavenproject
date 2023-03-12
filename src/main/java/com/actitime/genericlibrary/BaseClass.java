@@ -45,11 +45,6 @@ public class BaseClass {
 		System.out.println("============logOutApplication==========@AfterMethod Executed===========");
 	}
 	
-	@AfterClass
-	public void CloseBrowser() {
-		System.out.println("============CloseBrowser========@AfterClass Executed=============");
-		//driver.close();
-	}
 	
 	@AfterClass
 	public void CloseBrowser() {
