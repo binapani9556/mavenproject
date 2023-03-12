@@ -1,5 +1,7 @@
 package mavenproject;
 
+import org.testng.annotations.Test;
+
 public class A {
 	public A() {
 		System.out.println("constructpr A executed");
@@ -29,8 +31,9 @@ public class A {
 	public void method1(char a, char b) {
 		System.out.println("method1 non parameter  executed");
 	}
-	
-public static void main(String[] args) {
+@Test	
+//public static void main(String[] args) {
+public static void displayGudi() {
 	A objA = new A(10);
 	//objA.method1();
 	System.out.println("baba+gudi");
