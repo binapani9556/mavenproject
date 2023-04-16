@@ -10,6 +10,7 @@ public class Fula {
 		int b=20;
 		System.out.println("a+b");
 		System.out.println();
+//kokoo====
 }
 
 }
