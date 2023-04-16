@@ -1,3 +1,4 @@
+
 package mavenproject;
 
 import org.testng.annotations.Test;
@@ -25,9 +26,8 @@ public class B extends A{
 		System.out.println("============UPCAST===================");
 		A upcSTA = new B();
 		upcSTA.method1();
-		System.out.println("==================cool=========");
-		System.out.println("=============binapani======");
 		
 	}
 
 }
+

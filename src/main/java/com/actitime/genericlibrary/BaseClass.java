@@ -1,3 +1,4 @@
+
 package com.actitime.genericlibrary;
 
 import org.openqa.selenium.By;
@@ -24,7 +25,7 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(10000);
+		Thread.sleep(4000);
 		
 	}
 	
@@ -35,7 +36,7 @@ public class BaseClass {
 		driver.findElement(By.name("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.xpath("//div[text()='Login ']")).click();
-		Thread.sleep(10000);
+		Thread.sleep(4000);
 		
 	}
 	
@@ -45,13 +46,13 @@ public class BaseClass {
 		System.out.println("============logOutApplication==========@AfterMethod Executed===========");
 	}
 	
+	
 	@AfterClass
 	public void CloseBrowser() {
 		System.out.println("============CloseBrowser========@AfterClass Executed=============");
 		//driver.close();
 	}
-	
-	
 	}
 
-}
+
+
