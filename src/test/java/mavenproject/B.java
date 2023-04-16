@@ -1,4 +1,7 @@
+
 package mavenproject;
+
+import org.testng.annotations.Test;
 
 public class B extends A{
 	
@@ -10,7 +13,9 @@ public class B extends A{
 		System.out.println("method1 override");
 	}
 	
-	public static void main(String[] args) {
+	@Test
+	//public static void main(String[] args) {
+	public static void childObjPrint() {
 		//A objA = new A();
 		System.out.println("===========CHILD OBJ====================");
 		B objB = new B();
@@ -25,3 +30,4 @@ public class B extends A{
 	}
 
 }
+
