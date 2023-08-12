@@ -15,6 +15,7 @@ public class A {
 
 	public void method1() {
 		System.out.println("method1 non parameter  executed");
+		System.out.println("kwjrogjwiosnwlv");
 	}
 
 	public void method1(int a) {
