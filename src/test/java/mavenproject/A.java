@@ -35,6 +35,7 @@ public class A {
 
 	public void method4() {
 		System.out.println("==========hi bina====");
+		System.out.println("===============================================");
 	}
 
 	@Test
